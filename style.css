@@ -1,0 +1,50 @@
+body {
+    background-color:ghostwhite;
+    }
+.caution {color:crimson }
+h1 {color:grey;}
+h2 {color:darkcyan}
+h3 {color:lightslategrey}
+a:hover[href] {background-color:lightskyblue
+    ;}
+#main-heading {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.menu {
+    display: inline-flex;
+    list-style-type:circle;
+    position: absolute;
+    float: right;
+    right: 10px;
+    top: 10px; 
+    border: 1px outset black;
+}
+
+.menu li{
+    margin-right: 35px;
+    text-align: center;
+}
+/* unvisited link */
+a:link {
+    color:slategray;
+    }
+    /* visited link */
+    a:visited {
+    color:navy;}
+
+.table {text-align: center;}
+.banner {
+    background-image: url('banner.jpg'); 
+    padding: 16px;
+        max-width: 9200px;
+        max-height: 394px;
+        font-size: xx-large;
+        color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }    
+.logo {position: absolute;
+    float: left;
+    right: 1158 px;
+    top: 12px; }
+#requirements {text-align: center;}
+.align {text-align: center;}
+
+.names {border: 2px dotted dashed solid double;}
