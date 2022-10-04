@@ -63,7 +63,7 @@ a:link {
 
 @media screen and (max-width: 768px) { 
 .logo img {
-  width: 10%;
+  max-width: 25%;
   height: auto;
   } 
 .grid {display: flow-root;}
@@ -72,14 +72,14 @@ a:link {
   height: auto;
   } 
 #fphoto {
-    width: 100%;
+    max-width: 40%;
     height: auto;
   } {
     width: 100%; background-color: lightgray; } }
 
 @media screen and (min-width: 769px) and (max-width: 1023px) { 
       .logo img {
-        width: 10%;
+        max-width: 40%;
         height: auto;
         } 
       .grid {display: grid;
@@ -90,14 +90,14 @@ a:link {
         height: auto;
         } 
       #fphoto {
-          width: 100%;
+          max-width: 60%;
           height: auto;
         } {
           width: 100%; background-color: lightgray; } }  
 
 @media screen and ((min-width: 1024px) { 
 .logo img {
-  width: 10%;
+  max-width: 50%;
   height: auto;
   }
 .grid {display: block;}
@@ -106,7 +106,7 @@ a:link {
   height: auto;
   }  
 #fphoto {
-    width: 100%;
+    max-width: 100%;
     height: auto;
   }
 {
