@@ -61,7 +61,7 @@ a:link {
   font-size: 20px;
 }
 
-@media screen and (max-width: 1024px) { 
+@media screen and (max-width: 768px) { 
 .logo img {
   width: 10%;
   height: auto;
@@ -77,8 +77,25 @@ a:link {
   } {
     width: 100%; background-color: lightgray; } }
 
+@media screen and (min-width: 769px) and (max-width: 1023px) { 
+      .logo img {
+        width: 10%;
+        height: auto;
+        } 
+      .grid {display: grid;
+        grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;}
+      .banner {
+        width: 100%;
+        height: auto;
+        } 
+      #fphoto {
+          width: 100%;
+          height: auto;
+        } {
+          width: 100%; background-color: lightgray; } }  
 
-@media screen and ((min-width: 1025px) { 
+@media screen and ((min-width: 1024px) { 
 .logo img {
   width: 10%;
   height: auto;
