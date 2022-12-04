@@ -1,1 +1,0 @@
-# dyertayev.github.io
